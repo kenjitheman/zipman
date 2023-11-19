@@ -1,4 +1,4 @@
-## archive compressor/extractor | golang library
+## Archive compressor/extractor in golang
 
 ###
 
@@ -8,7 +8,7 @@
 
 ###
 
-## supported formats and functionality:
+## Supported formats and functionality:
 
 - `zip` (compression/extraction/adding)
 - `tar` (compression/extraction/adding)
@@ -17,7 +17,7 @@
 - `bz2` (compression/extraction)
 - `rar` (extraction)
 
-## project structure:
+## Project structure:
 
 ```go
 ├── 7z.go
@@ -32,13 +32,13 @@
 └── zip.go
 ```
 
-## installation
+## Installation
 
 ```shell
 go get github.com/kenjitheman/zipman
 ```
 
-## usage
+## Usage
 
 ```go
 package main
@@ -58,11 +58,11 @@ func main() {
 [SUCCESS] Zip compression completed successfully for file: ./file.zip
 ```
 
-## contributing
+## Contributing
 
-- pull requests are welcome, for major changes, please open an issue first to
-  discuss what you would like to change
+- Pull requests are welcome, for major changes, please open an issue first to
+  discuss what you would like to change.
 
-## license
+## License
 
 - [MIT](https://choosealicense.com/licenses/mit/)
