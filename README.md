@@ -20,6 +20,8 @@
 ## Project structure:
 
 ```go
+zipman
+│
 ├── 7z.go
 ├── bzip2.go
 ├── go.mod
