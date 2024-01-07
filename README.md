@@ -1,13 +1,3 @@
-## Archive compressor/extractor in golang
-
-###
-
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" height="200" alt="go logo"  />
-</div>
-
-###
-
 ## Supported formats and functionality:
 
 - `zip` (compression/extraction/adding)
@@ -16,23 +6,6 @@
 - `7z` (compression/extraction)
 - `bz2` (compression/extraction)
 - `rar` (extraction)
-
-## Project structure:
-
-```go
-zipman
-│
-├── 7z.go
-├── bzip2.go
-├── go.mod
-├── go.sum
-├── LICENSE
-├── rar.go
-├── README.md
-├── tar.go
-├── targz.go
-└── zip.go
-```
 
 ## Installation
 
@@ -43,16 +16,7 @@ go get github.com/kenjitheman/zipman
 ## Usage
 
 ```go
-package main
-
-import "github.com/kenjitheman/zipman"
-
-func main() {
-	zipman.CompressToZip("./file.zip", []string{"./man.txt", "./hello.txt"})
-
-    // zipman.AddFileToZip(zipWriter *zip.Writer, filename string)
-	// zipman.ExtractZip("./file.zip", "./man")
-}
+zipman.CompressToZip("./file.zip", []string{"./man.txt", "./hello.txt"})
 ```
 
 ```rust
