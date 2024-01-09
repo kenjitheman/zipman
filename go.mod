@@ -1,4 +1,4 @@
-module github.com/kenjitheman/zipman
+module github.com/btwkenji/zipman
 
 go 1.20
 
